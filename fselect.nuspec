@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fselect</id>
+    <version>0.6.4</version>
+    <packageSourceUrl>https://github.com/jhspetersson/fselect</packageSourceUrl>
+    <owners>jhspetersson</owners>
+    <title>fselect</title>
+    <authors>jhspetersson</authors>
+    <projectUrl>https://github.com/jhspetersson/fselect</projectUrl>
+    <projectSourceUrl>https://github.com/jhspetersson/fselect</projectSourceUrl>
+	<licenseUrl>https://github.com/jhspetersson/fselect/blob/master/LICENSE-MIT</licenseUrl>
+	<docsUrl>https://github.com/jhspetersson/fselect/blob/master/README.md</docsUrl>
+	<packageSourceUrl>https://github.com/jhspetersson/fselect-choco</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/jhspetersson/fselect/issues</bugTrackerUrl>
+    <tags>fselect cli file search find sql</tags>
+    <summary>Find files with SQL-like queries</summary>
+    <description><![CDATA[	
+		While it doesn't tend to fully replace traditional `find` and `ls`, **fselect** has these nice features:
+
+		* SQL-like (not real SQL, but highly relaxed!) grammar easily understandable by humans
+		* complex queries
+		* aggregate, date, and other functions
+		* search within archives
+		* `.gitignore` and `.hgignore` support (experimental)
+		* search by width and height of images, EXIF metadata
+		* search by MP3 info
+		* search by extended file attributes
+		* search by file hashes
+		* search by MIME type
+		* shortcuts to common file types
+		* various output formatting (CSV, JSON, and others)
+
+		More is under way! Please take a look at the documentation for the examples of usage.
+	
+	]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
