@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fselect</id>
-    <version>0.6.9</version>
+    <version>0.6.10</version>
     <owners>jhspetersson</owners>
     <title>fselect</title>
     <authors>jhspetersson</authors>
@@ -21,7 +21,7 @@
 		* complex queries
 		* aggregate, date, and other functions
 		* search within archives
-		* `.gitignore` and `.hgignore` support (experimental)
+		* `.gitignore`, `.hgignore`, and `.dockerignore` support (experimental)
 		* search by width and height of images, EXIF metadata
 		* search by MP3 info
 		* search by extended file attributes
