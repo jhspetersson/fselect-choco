@@ -3,4 +3,4 @@ VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
  
-This is the official Windows build distributed as https://github.com/jhspetersson/fselect/releases/download/0.7.0/fselect-x86_64-win.zip
+This is the official Windows build distributed as https://github.com/jhspetersson/fselect/releases/download/0.7.1/fselect-x86_64-win.zip
